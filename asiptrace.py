@@ -10,7 +10,7 @@ if len(sys.argv[1:])<1:
 
 ip = sys.argv[1]
 
-with open('Libs'+sep+'iana_ip_base', 'r') as f:
+with open('libs'+sep+'iana_ip_base', 'r') as f:
     iana_ip_base = dict()
     for line in f:
         spl = line.strip().split(' ')
