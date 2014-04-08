@@ -3,6 +3,6 @@ AS-IP-Tracing
 
 Autonomous System tracing tool
 
-Requirements: Python 3.*, windows, internet connection
+Requirements: Windows, python 2.x or 3.x
 
-Run: "asiptrace.py %IP%"
+Run: "asiptrace.py address [--verbose]"
